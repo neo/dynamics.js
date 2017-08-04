@@ -1,3 +1,10 @@
+# Custom Build
+
+I took out most of the code to only keep what I need to use:
+
+- tween only numbers
+- contain only eases of `easeInOut` and `spring`
+
 # Dynamics.js
 Dynamics.js is a JavaScript library to create physics-based animations
 
