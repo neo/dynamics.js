@@ -2,7 +2,7 @@
   "name": "@neoli/dynamics.js",
   "title": "Dynamics.js",
   "description": "A simple custom version of Dynamics.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "http://dynamicsjs.com",
   "author": "Michael Villar <me@michaelvillar.com> (http://twitter.com/michaelvillar)",
   "repository": {
@@ -29,5 +29,8 @@
     "spring",
     "physic"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "raf": "^3.3.2"
+  }
 }

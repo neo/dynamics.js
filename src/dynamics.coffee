@@ -1006,7 +1006,7 @@ class InterpolableNumber
 #   toDashed(property)
 
 # Run loop
-rAF = window?.requestAnimationFrame
+rAF = require('raf')
 animations = []
 animationsTimeouts = []
 slow = false
